@@ -1,0 +1,20 @@
+# macOS
+.DS_Store
+
+# KiCad — local / auto-generated state (not part of the design source)
+# Lock files (created while a project is open)
+*.lck
+# Per-user project-local display settings
+*.kicad_prl
+# KiCad auto-backup zips
+*-backups/
+# Footprint info cache (regenerated on demand)
+fp-info-cache
+# KiCad History plugin
+.history/
+
+# KiCad — autosave / recovery
+*.kicad_sch-bak
+*.kicad_pcb-bak
+_autosave-*
+*~
