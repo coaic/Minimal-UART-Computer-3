@@ -53,6 +53,20 @@ The assembly dialect (see any file in `Programs/`) is whitespace-driven and dens
 
 `microcode_def.csv` is the source of truth for the instruction set: each line `#define <MNEMONIC> <signal>|<signal>, …` lists the control signals asserted per micro-step (16 steps max). The control signal mnemonics (`RO` RAM-out, `RI` RAM-in, `AI`/`AO` reg-A in/out, `EO` ALU-out, `MIL`/`MIH` memory-address-in low/high, `IC` instruction-counter clear, etc.) are defined by the hardware. Changing instruction behavior means editing the microcode here, regenerating `microcode_rom.csv` and the `ctrl_*.bin` ROM images, and keeping the emulator's copy (`Support/Emulator/src/microcode_rom.csv`) in sync.
 
+## Bill of materials and front-panel LEDs
+
+`BOM.csv` (repo root) is generated from the **PCB** (`KiCAD9/8-Bit CPU 32k.kicad_pcb`), the same source the Gerbers were exported from — **not** from `8-Bit CPU 32k.net`, which is a stale older revision and must not be used for ordering. The board is a 253 × 236 mm "blinkenlights" machine: ~207 components, of which **~98 are 5 mm THT LEDs**. After converting to KiCad 10, regenerate the BOM from the schematic (**Tools → Generate BOM**) and diff it against `BOM.csv` — trust the schematic for values, the PCB for what is physically placed.
+
+The LEDs are all the same footprint (`LED_THT:LED_D5.0mm`), so colour is a **free build choice** used to make the panel readable. The reference designators / silkscreen values group them functionally — assigning one colour per group is recommended:
+
+- **Control / microcode signals** (named LEDs: `AI AO BI BO EO RI RO MIL MIH CIL CIH COL COH TI TO ME FI II IC CE EC ES`) — these mirror the `microcode_def.csv` control lines; give them one dominant colour (e.g. **red**).
+- **Data bus** bits — a second colour (e.g. **green**).
+- **Address bus / program counter** bits — a third colour (e.g. **blue**).
+- **Registers A/B contents** — a fourth colour (e.g. **amber/yellow**).
+- **Flags and clock** (`C` carry, `N` negative, `CLK`) — a distinct accent colour (e.g. **white**) since they are watched constantly.
+
+Order ~10% spare LEDs (≈110 total). Other order-sensitive items: **11× SIP-9 bussed resistor arrays** (must be the 9-pin common-bus type, not isolated) drive the LED banks; the four `SST39SF010` flash chips are identical parts (HSB/LSB/MSB/SSD are roles); memory is **AS6C1008** (128K SRAM, DIP-32 0.6″) and the **ATmega328P is on-board** (DIP-28 narrow 0.3″) with a 16 MHz crystal. Buy flash, RAM, MCU, and crystal genuine from a reputable distributor; 74HCxx logic, sockets, and passives can be sourced cheaply in bulk.
+
 ## Other notes
 
 - `Clock_ATmega328p/Clock_ATmega328p.ino` is the Arduino sketch for the ATmega328p clock generator (adjustable single-step–8MHz).
