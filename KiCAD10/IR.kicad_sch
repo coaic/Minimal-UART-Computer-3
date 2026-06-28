@@ -12258,6 +12258,17 @@
 				)
 			)
 		)
+		(property "MPN" "ATMEGA328P-PU"
+			(at 34.036 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Value" "ATmega328P"
 			(at 34.036 66.04 0)
 			(show_name no)
@@ -12677,6 +12688,17 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(property "MPN" "SST39SF010A-70-4C-PHE"
+			(at 153.035 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Value" "SST39SF010 HSB"
@@ -17876,6 +17898,17 @@
 				(justify right)
 			)
 		)
+		(property "MPN" "SST39SF010A-70-4C-PHE"
+			(at 198.755 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Value" "SST39SF010 MSB"
 			(at 198.755 38.1 90)
 			(show_name no)
@@ -21785,6 +21818,17 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(property "MPN" "SST39SF010A-70-4C-PHE"
+			(at 245.745 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Value" "SST39SF010 LSB"

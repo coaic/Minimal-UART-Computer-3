@@ -67,8 +67,24 @@ The LEDs are all the same footprint (`LED_THT:LED_D5.0mm`), so colour is a **fre
 
 Order ~10% spare LEDs (≈110 total). Other order-sensitive items: **11× SIP-9 bussed resistor arrays** (must be the 9-pin common-bus type, not isolated) drive the LED banks; the four `SST39SF010` flash chips are identical parts (HSB/LSB/MSB/SSD are roles); memory is **AS6C1008** (128K SRAM, DIP-32 0.6″) and the **ATmega328P is on-board** (DIP-28 narrow 0.3″) with a 16 MHz crystal. Buy flash, RAM, MCU, and crystal genuine from a reputable distributor; 74HCxx logic, sockets, and passives can be sourced cheaply in bulk.
 
+### Identifying the socketed chips (and their orderable parts)
+
+All four flash chips are the **same physical part** — identity comes from the **silkscreen U-number** (the socket), not the chip marking. The "Value" field in `BOM.csv` names the family + role; the **`Footprint`** field (`DIP-32_W15.24mm` = DIP-32, 0.6″) is what binds the BOM to the board; you complete the match at order time by picking the **PDIP** package variant. `BOM.csv` now carries an explicit **`MPN`** column, and the same MPNs are stored as `MPN` symbol properties on these instances in the KiCad 10 schematic (so they survive BOM regeneration — add `MPN` to the BOM export field list).
+
+| Ref | Sheet | Role | Orderable MPN (PDIP) |
+|---|---|---|---|
+| U7 | IR | control ROM **HSB** (`ctrl_hsb.bin`) | `SST39SF010A-70-4C-PHE` |
+| U9 | IR | control ROM **MSB** (`ctrl_msb.bin`) | `SST39SF010A-70-4C-PHE` |
+| U11 | IR | control ROM **LSB** (`ctrl_lsb.bin`) | `SST39SF010A-70-4C-PHE` |
+| U15 | RAM | program/OS FLASH **SSD** (`flash.bin`) | `SST39SF010A-70-4C-PHE` |
+| U17 | RAM | **AS6C1008** SRAM (128K×8) | `AS6C1008-55PCN` |
+| U36 | IR | **ATmega328P** clock generator | `ATMEGA328P-PU` |
+
+Package suffix matters: SST39SF010 ships in PDIP-32 (`-PHE`), PLCC (`NHE`), and TSOP (`THE`) — only **`-PHE`** fits the DIP socket. The plain non-A `SST39SF010` is obsolete; use the drop-in `SST39SF010A`.
+
 ## Other notes
 
-- `Clock_ATmega328p/Clock_ATmega328p.ino` is the Arduino sketch for the ATmega328p clock generator (adjustable single-step–8MHz).
+- `Clock_ATmega328p/Clock_ATmega328p.ino` is the Arduino sketch for the ATmega328p clock generator (adjustable single-step–8MHz). The ATmega is **not** a CPU — it is purely the variable clock/baud source (Timer1 → CLK, Timer2 → UART bit-clock), driven by the SELECT/SINGLE buttons.
+- **Programming U36 (ATmega):** the board has **no on-board ISP path** — verified from the PCB copper: MISO/SCK (PB4/PB5) are unrouted, MOSI/PB3 is repurposed as `UART_OSC` (drives U3), the USART pins (PD0/PD1) are unconnected, and RESET only carries its 10k pull-up (R3). So U36 must be **programmed off-board and socketed**: flash the sketch on a **DIP-socketed Arduino Uno R3** (Board = "Arduino Uno"), then swap the chip into U36 — the Uno already runs at 16 MHz so the external-crystal fuses are correct. (Uno R4 = Renesas, won't work; SMD-Uno chips aren't swappable.) A ZIF universal programmer (e.g. XGecu T48) is the alternative and also burns the `SST39SF010` ROMs — for that route export the sketch to `.hex` and set the 16 MHz crystal fuses.
 - Licensing is **per-component** (hardware and software parts carry individual licenses; MinOS2 is GPLv3). See `DISCLAIMER.md` and `README.md`. This is non-commercial; selling it violates the license.
 - Authoritative external docs: the manual (Google Doc linked in `README.md`) and the author's YouTube channel.

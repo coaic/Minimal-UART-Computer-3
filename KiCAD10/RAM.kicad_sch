@@ -6728,6 +6728,17 @@
 				(justify right)
 			)
 		)
+		(property "MPN" "AS6C1008-55PCN"
+			(at 172.72 39.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Value" "AS6C1008 RAM"
 			(at 172.72 39.37 90)
 			(show_name no)
@@ -9399,6 +9410,17 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(property "MPN" "SST39SF010A-70-4C-PHE"
+			(at 110.49 39.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Value" "SST39SF010 SSD"
