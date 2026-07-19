@@ -7031,6 +7031,17 @@
 				)
 			)
 		)
+		(property "Supplier Ref" "C503B-BCS-CV0Z0461"
+			(at 124.714 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Value" "R"
 			(at 124.968 146.05 0)
 			(show_name no)
