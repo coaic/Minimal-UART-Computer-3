@@ -4650,6 +4650,17 @@
 				)
 			)
 		)
+		(property "MPN" "703-0100"
+			(at 96.774 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Value" "BO"
 			(at 96.52 125.73 0)
 			(show_name no)

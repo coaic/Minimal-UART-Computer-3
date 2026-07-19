@@ -5549,6 +5549,17 @@
 				)
 			)
 		)
+		(property "MPN" "703-0100"
+			(at 134.874 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Value" "RO"
 			(at 134.874 132.08 0)
 			(show_name no)
