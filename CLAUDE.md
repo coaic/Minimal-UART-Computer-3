@@ -79,6 +79,21 @@ The LEDs are all the same footprint (`LED_THT:LED_D5.0mm`), so colour is a **fre
 
 All 98 LEDs are coded.
 
+**LED drive currents (per-colour forward-voltage handling).** Traced from a fresh netlist (`kicad-cli sch export netlist`). The design **does** account for the different forward voltages of the LED colours — but in two different ways depending on the LED's role:
+
+- **Bus / data / address / register LEDs (70 of them)** are all **green** and hang off the **`RN1`–`RN11` bussed 3.3 kΩ arrays** → ~0.85 mA each. All one colour, so a single array value is correct. These cannot be retuned per-LED (they share 8-way packs), but they never need to be — they're monochrome.
+- **Named control / flag / clock LEDs (28 of them)** mix colours and each sits on its **own discrete resistor** (`R4`–`R33`), valued *by colour* so the high-Vf parts aren't starved:
+
+| Colour | Signals | R | I (≈) | Vf |
+|---|---|---|---|---|
+| Yellow | AI BI RI CIL CIH MIL MIH TI FI II IC | 470 Ω | 6.2 mA | ~2.1 V |
+| Blue | R (flag, D97) | 1 kΩ | 1.9 mA | ~3.1 V |
+| Red | AO BO EO TO COH COL RO | 2 kΩ | 1.55 mA | ~1.9 V |
+| White | ME CE EC ES | 2 kΩ | 0.95 mA | ~3.1 V |
+| Green | C (flag), CLK, D1–D3 status | 3.3 kΩ | 0.85 mA | ~2.2 V |
+
+So the high-Vf blue (1 kΩ) and white (2 kΩ) are deliberately given lower series resistors; blue actually ends up driven harder than the green banks. The tuning targets *desired brightness by function* more than strict equal-luminance — yellow at 6 mA visibly dominates, whites at ~1 mA are the most modest — but nothing is Vf-starved. **Any named LED can be rebalanced** by changing its discrete resistor (e.g. whites 2 kΩ → ~1.2–1.5 kΩ, or calm the yellows 470 Ω → ~1 kΩ); the green bus banks cannot (bussed arrays) but are monochrome so it's moot. Evaluate lit-up on the prototype before changing anything.
+
 Order ~10% spare LEDs (≈110 total). Other order-sensitive items: **11× SIP-9 bussed resistor arrays** (must be the 9-pin common-bus type, not isolated) drive the LED banks; the four `SST39SF010` flash chips are identical parts (HSB/LSB/MSB/SSD are roles); memory is **AS6C1008** (128K SRAM, DIP-32 0.6″) and the **ATmega328P is on-board** (DIP-28 narrow 0.3″) with a 16 MHz crystal. Buy flash, RAM, MCU, and crystal genuine from a reputable distributor; 74HCxx logic, sockets, and passives can be sourced cheaply in bulk.
 
 ### Identifying the socketed chips (and their orderable parts)
