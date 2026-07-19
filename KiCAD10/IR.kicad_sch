@@ -19382,7 +19382,7 @@
 				)
 			)
 		)
-		(property "Value" "LED_small"
+		(property "Value" "LED_Small"
 			(at 60.8965 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -20848,7 +20848,7 @@
 				)
 			)
 		)
-		(property "Value" "LED_small"
+		(property "Value" "LED_Small"
 			(at 60.8965 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -23080,7 +23080,7 @@
 				)
 			)
 		)
-		(property "Value" "LED_small"
+		(property "Value" "LED_Small"
 			(at 60.8965 57.15 0)
 			(hide yes)
 			(show_name no)
