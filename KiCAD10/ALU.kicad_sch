@@ -9605,6 +9605,17 @@
 				)
 			)
 		)
+		(property "Supplier Ref" "C512A-WNN-CZ0B0151"
+			(at 91.186 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Value" "EC"
 			(at 86.106 88.9 0)
 			(show_name no)
@@ -10321,6 +10332,17 @@
 			)
 		)
 		(property "Color" "White"
+			(at 192.786 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Ref" "C512A-WNN-CZ0B0151"
 			(at 192.786 53.34 0)
 			(hide yes)
 			(show_name no)

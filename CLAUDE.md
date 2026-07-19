@@ -74,10 +74,10 @@ The LEDs are all the same footprint (`LED_THT:LED_D5.0mm`), so colour is a **fre
 | Green | 75 | `L-53SGC` |
 | Red | 7 | `703-0100` |
 | Yellow | 11 | `MCL053YD` |
-| White | 4 | — |
+| White | 4 | `C512A-WNN-CZ0B0151` |
 | Blue | 1 | — |
 
-White/blue are not yet coded.
+Blue is not yet coded.
 
 Order ~10% spare LEDs (≈110 total). Other order-sensitive items: **11× SIP-9 bussed resistor arrays** (must be the 9-pin common-bus type, not isolated) drive the LED banks; the four `SST39SF010` flash chips are identical parts (HSB/LSB/MSB/SSD are roles); memory is **AS6C1008** (128K SRAM, DIP-32 0.6″) and the **ATmega328P is on-board** (DIP-28 narrow 0.3″) with a 16 MHz crystal. Buy flash, RAM, MCU, and crystal genuine from a reputable distributor; 74HCxx logic, sockets, and passives can be sourced cheaply in bulk.
 

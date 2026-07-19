@@ -7279,6 +7279,17 @@
 				)
 			)
 		)
+		(property "Supplier Ref" "C512A-WNN-CZ0B0151"
+			(at 173.736 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Value" "CE"
 			(at 168.402 137.16 0)
 			(show_name no)
