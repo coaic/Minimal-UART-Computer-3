@@ -21,3 +21,8 @@ _autosave-*
 
 # KiCad — generated reports (DRC/ERC)
 *.rpt
+
+# KiCad — BOM/netlist exports from the project (canonical BOM is the root
+# BOM.csv; these are throwaway exports KiCad drops next to the project files)
+KiCAD9/*.csv
+KiCAD10/*.csv
