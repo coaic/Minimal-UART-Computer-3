@@ -12720,6 +12720,17 @@
 				)
 			)
 		)
+		(property "Supplier Ref" "MCL053YD"
+			(at 127.254 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Value" "TI"
 			(at 127.254 67.31 0)
 			(show_name no)
@@ -20580,6 +20591,17 @@
 				)
 			)
 		)
+		(property "Supplier Ref" "MCL053YD"
+			(at 120.904 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Value" "II"
 			(at 121.158 93.98 0)
 			(show_name no)
@@ -22187,6 +22209,17 @@
 				)
 			)
 		)
+		(property "Supplier Ref" "MCL053YD"
+			(at 113.284 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Value" "FI"
 			(at 113.538 93.98 0)
 			(show_name no)
@@ -22416,6 +22449,17 @@
 			)
 		)
 		(property "Color" "Yellow"
+			(at 128.524 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Ref" "MCL053YD"
 			(at 128.524 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -23382,6 +23426,17 @@
 			)
 		)
 		(property "Color" "Yellow"
+			(at 120.904 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Ref" "MCL053YD"
 			(at 120.904 67.31 0)
 			(hide yes)
 			(show_name no)

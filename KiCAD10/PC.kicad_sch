@@ -5076,6 +5076,17 @@
 				)
 			)
 		)
+		(property "Supplier Ref" "MCL053YD"
+			(at 184.404 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Value" "CIH"
 			(at 184.404 137.414 0)
 			(show_name no)
@@ -6759,6 +6770,17 @@
 			)
 		)
 		(property "Color" "Yellow"
+			(at 161.544 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Ref" "MCL053YD"
 			(at 161.544 137.16 0)
 			(hide yes)
 			(show_name no)

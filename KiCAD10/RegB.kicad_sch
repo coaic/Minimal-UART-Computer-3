@@ -3205,6 +3205,17 @@
 				)
 			)
 		)
+		(property "Supplier Ref" "MCL053YD"
+			(at 103.124 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Value" "BI"
 			(at 103.124 125.73 0)
 			(show_name no)
