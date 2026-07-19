@@ -4670,7 +4670,7 @@
 				)
 			)
 		)
-		(property "MPN" "L-53SGC"
+		(property "Supplier Ref" "L-53SGC"
 			(at 105.156 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -4873,7 +4873,7 @@
 				)
 			)
 		)
-		(property "MPN" "L-53SGC"
+		(property "Supplier Ref" "L-53SGC"
 			(at 238.506 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -5345,7 +5345,7 @@
 				)
 			)
 		)
-		(property "MPN" "L-53SGC"
+		(property "Supplier Ref" "L-53SGC"
 			(at 241.046 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -5642,7 +5642,7 @@
 				)
 			)
 		)
-		(property "MPN" "L-53SGC"
+		(property "Supplier Ref" "L-53SGC"
 			(at 243.586 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -5845,7 +5845,7 @@
 				)
 			)
 		)
-		(property "MPN" "L-53SGC"
+		(property "Supplier Ref" "L-53SGC"
 			(at 246.126 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -6229,7 +6229,7 @@
 				)
 			)
 		)
-		(property "MPN" "L-53SGC"
+		(property "Supplier Ref" "L-53SGC"
 			(at 107.696 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -6644,7 +6644,7 @@
 				)
 			)
 		)
-		(property "MPN" "L-53SGC"
+		(property "Supplier Ref" "L-53SGC"
 			(at 233.426 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -7132,7 +7132,7 @@
 				)
 			)
 		)
-		(property "MPN" "L-53SGC"
+		(property "Supplier Ref" "L-53SGC"
 			(at 235.966 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -7370,7 +7370,7 @@
 				)
 			)
 		)
-		(property "MPN" "L-53SGC"
+		(property "Supplier Ref" "L-53SGC"
 			(at 110.236 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -7495,7 +7495,7 @@
 				)
 			)
 		)
-		(property "MPN" "L-53SGC"
+		(property "Supplier Ref" "L-53SGC"
 			(at 97.536 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -7972,7 +7972,7 @@
 				)
 			)
 		)
-		(property "MPN" "L-53SGC"
+		(property "Supplier Ref" "L-53SGC"
 			(at 112.776 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -8097,7 +8097,7 @@
 				)
 			)
 		)
-		(property "MPN" "L-53SGC"
+		(property "Supplier Ref" "L-53SGC"
 			(at 115.316 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -8222,7 +8222,7 @@
 				)
 			)
 		)
-		(property "MPN" "L-53SGC"
+		(property "Supplier Ref" "L-53SGC"
 			(at 248.666 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -8634,7 +8634,7 @@
 				)
 			)
 		)
-		(property "MPN" "L-53SGC"
+		(property "Supplier Ref" "L-53SGC"
 			(at 230.886 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -8837,7 +8837,7 @@
 				)
 			)
 		)
-		(property "MPN" "L-53SGC"
+		(property "Supplier Ref" "L-53SGC"
 			(at 100.076 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -9086,7 +9086,7 @@
 				)
 			)
 		)
-		(property "MPN" "L-53SGC"
+		(property "Supplier Ref" "L-53SGC"
 			(at 102.616 135.89 0)
 			(hide yes)
 			(show_name no)
