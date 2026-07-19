@@ -67,7 +67,17 @@ The LEDs are all the same footprint (`LED_THT:LED_D5.0mm`), so colour is a **fre
 
 **As-built colours are captured in the schematic.** The bullets above are the design rationale; the actual per-LED colour was assigned on the PCB (stored in each LED footprint's `Description`, e.g. `LED GREEN, 2000mcd, 60°`). That colour has now been copied onto every LED **symbol** as a hidden **`Color`** property (all 98 LEDs), so it travels with the schematic-generated BOM the same way `MPN` does — **add `Color` to the BOM export field list**. The source of truth for colour is now the schematic `Color` field; the PCB footprint `Description` is the independent original it was derived from, and KiCad does *not* auto-sync the two, so if you recolour a LED, update the schematic `Color` field. The as-built distribution is **Green 75, Yellow 11, Red 7, White 4, Blue 1** — note the physical build uses green as the dominant bus/signal colour rather than the red-dominant scheme suggested above.
 
-**LED sourcing (Element14/Farnell).** LEDs are ordered from Element14, so their **distributor order code** lives in a separate **`Supplier Ref`** symbol property — *not* in `MPN`. Keep the distinction: `MPN` = manufacturer part number (used for the chips, e.g. `SST39SF010A-70-4C-PHE`), `Supplier Ref` = Element14/Farnell order code. Add both to the BOM export field list. Order codes assigned so far: **Red = `703-0100`** (all 7 red LEDs). The other colours (green/yellow/white/blue) are not yet coded.
+**LED sourcing (Element14/Farnell).** LEDs are ordered from Element14, so their **distributor order code** lives in a separate **`Supplier Ref`** symbol property — *not* in `MPN`. Keep the distinction: `MPN` = manufacturer part number (used for the chips, e.g. `SST39SF010A-70-4C-PHE`), `Supplier Ref` = Element14/Farnell order code. Add both to the BOM export field list. Codes assigned so far — note each colour may be identified by *either* an `MPN` or a `Supplier Ref` depending on what was supplied:
+
+| Colour | Qty | `MPN` (mfr PN) | `Supplier Ref` (Element14) |
+|---|---|---|---|
+| Green | 75 | `L-53SGC` (Kingbright) | — |
+| Red | 7 | — | `703-0100` |
+| Yellow | 11 | — | — |
+| White | 4 | — | — |
+| Blue | 1 | — | — |
+
+Yellow/white/blue are not yet coded.
 
 Order ~10% spare LEDs (≈110 total). Other order-sensitive items: **11× SIP-9 bussed resistor arrays** (must be the 9-pin common-bus type, not isolated) drive the LED banks; the four `SST39SF010` flash chips are identical parts (HSB/LSB/MSB/SSD are roles); memory is **AS6C1008** (128K SRAM, DIP-32 0.6″) and the **ATmega328P is on-board** (DIP-28 narrow 0.3″) with a 16 MHz crystal. Buy flash, RAM, MCU, and crystal genuine from a reputable distributor; 74HCxx logic, sockets, and passives can be sourced cheaply in bulk.
 

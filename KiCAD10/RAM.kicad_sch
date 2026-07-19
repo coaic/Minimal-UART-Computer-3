@@ -4819,6 +4819,17 @@
 				)
 			)
 		)
+		(property "MPN" "L-53SGC"
+			(at 103.886 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Value" "LED_Small"
 			(at 105.41 132.0165 0)
 			(hide yes)
@@ -5001,6 +5012,17 @@
 			)
 		)
 		(property "Color" "Green"
+			(at 197.866 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "L-53SGC"
 			(at 197.866 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -5673,6 +5695,17 @@
 				)
 			)
 		)
+		(property "MPN" "L-53SGC"
+			(at 210.566 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Value" "LED_Small"
 			(at 212.09 132.0165 0)
 			(hide yes)
@@ -6211,6 +6244,17 @@
 				)
 			)
 		)
+		(property "MPN" "L-53SGC"
+			(at 208.026 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Value" "LED_Small"
 			(at 209.55 132.0165 0)
 			(hide yes)
@@ -6547,6 +6591,17 @@
 			)
 		)
 		(property "Color" "Green"
+			(at 101.346 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "L-53SGC"
 			(at 101.346 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -7497,6 +7552,17 @@
 				)
 			)
 		)
+		(property "MPN" "L-53SGC"
+			(at 108.966 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Value" "LED_Small"
 			(at 110.49 132.0165 0)
 			(hide yes)
@@ -7601,6 +7667,17 @@
 			)
 		)
 		(property "Color" "Green"
+			(at 96.266 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "L-53SGC"
 			(at 96.266 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -7953,6 +8030,17 @@
 				)
 			)
 		)
+		(property "MPN" "L-53SGC"
+			(at 202.946 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Value" "LED_Small"
 			(at 204.47 132.0165 0)
 			(hide yes)
@@ -8057,6 +8145,17 @@
 			)
 		)
 		(property "Color" "Green"
+			(at 213.106 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "L-53SGC"
 			(at 213.106 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -8275,6 +8374,17 @@
 				)
 			)
 		)
+		(property "MPN" "L-53SGC"
+			(at 195.326 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Value" "LED_Small"
 			(at 196.85 132.0165 0)
 			(hide yes)
@@ -8379,6 +8489,17 @@
 			)
 		)
 		(property "Color" "Green"
+			(at 200.406 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "L-53SGC"
 			(at 200.406 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -8946,6 +9067,17 @@
 				)
 			)
 		)
+		(property "MPN" "L-53SGC"
+			(at 106.426 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Value" "LED_Small"
 			(at 107.95 132.0165 0)
 			(hide yes)
@@ -9215,6 +9347,17 @@
 				)
 			)
 		)
+		(property "MPN" "L-53SGC"
+			(at 93.726 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Value" "LED_Small"
 			(at 95.25 132.0165 0)
 			(hide yes)
@@ -9319,6 +9462,17 @@
 			)
 		)
 		(property "Color" "Green"
+			(at 98.806 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "L-53SGC"
 			(at 98.806 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -9744,6 +9898,17 @@
 			)
 		)
 		(property "Color" "Green"
+			(at 205.486 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "L-53SGC"
 			(at 205.486 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -10416,6 +10581,17 @@
 			)
 		)
 		(property "Color" "Green"
+			(at 111.506 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "L-53SGC"
 			(at 111.506 132.08 0)
 			(hide yes)
 			(show_name no)
