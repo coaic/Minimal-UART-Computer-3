@@ -3615,6 +3615,17 @@
 				)
 			)
 		)
+		(property "element14" ""
+			(at 184.15 245.11 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "8-Bit CPU 32k"
 				(path "/78f451eb-c174-41d5-8503-c97ea93c08f4"
@@ -3680,6 +3691,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 74.93 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "element14" ""
 			(at 74.93 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -3771,6 +3793,17 @@
 				)
 			)
 		)
+		(property "element14" ""
+			(at 190.5 245.11 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "8-Bit CPU 32k"
 				(path "/78f451eb-c174-41d5-8503-c97ea93c08f4"
@@ -3837,6 +3870,17 @@
 			)
 		)
 		(property "Description" "8 resistor network, star topology, bussed resistors, small symbol"
+			(at 96.52 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "element14" ""
 			(at 96.52 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -3949,6 +3993,17 @@
 				)
 			)
 		)
+		(property "element14" ""
+			(at 125.73 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "783aac0c-c14d-46ce-92de-20381dcf0f08")
 		)
@@ -4020,6 +4075,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 93.98 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "element14" ""
 			(at 93.98 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -4189,6 +4255,17 @@
 				)
 			)
 		)
+		(property "element14" ""
+			(at 163.83 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "91c6d952-5bde-417a-a92a-eb4dfe886023")
 		)
@@ -4260,6 +4337,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 106.68 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "element14" ""
 			(at 106.68 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -4351,6 +4439,17 @@
 				)
 			)
 		)
+		(property "element14" ""
+			(at 81.28 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "966ad292-cebf-430e-9d27-2353e226d6b6")
 		)
@@ -4422,6 +4521,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 100.33 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "element14" ""
 			(at 100.33 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -4513,6 +4623,17 @@
 				)
 			)
 		)
+		(property "element14" ""
+			(at 151.13 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b8f76829-d9a1-40e5-92d6-9837a9aabfc3")
 		)
@@ -4584,6 +4705,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 157.48 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "element14" ""
 			(at 157.48 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -4675,6 +4807,17 @@
 				)
 			)
 		)
+		(property "element14" ""
+			(at 68.58 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6678a4c8-9f87-433d-8424-cefd9759e148")
 		)
@@ -4746,6 +4889,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 113.03 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "element14" ""
 			(at 113.03 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -4914,6 +5068,17 @@
 				)
 			)
 		)
+		(property "element14" ""
+			(at 119.38 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9f2ddbeb-9e07-442a-ba5a-5ed97aae7f34")
 		)
@@ -4985,6 +5150,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 144.78 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "element14" ""
 			(at 144.78 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -5076,6 +5252,17 @@
 				)
 			)
 		)
+		(property "element14" ""
+			(at 138.43 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4778ad87-f6cb-4b24-8533-e6b23c4221fb")
 		)
@@ -5147,6 +5334,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 55.88 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "element14" ""
 			(at 55.88 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -5238,6 +5436,17 @@
 				)
 			)
 		)
+		(property "element14" ""
+			(at 132.08 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c1aa7497-11fe-4947-a4c2-4e3464ae5c50")
 		)
@@ -5309,6 +5518,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 62.23 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "element14" ""
 			(at 62.23 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -5400,6 +5620,17 @@
 				)
 			)
 		)
+		(property "element14" ""
+			(at 87.63 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "2361510a-b820-4a39-b079-cd12cbda95e0")
 		)
@@ -5471,6 +5702,17 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 177.8 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "element14" ""
 			(at 177.8 245.11 0)
 			(hide yes)
 			(show_name no)
@@ -5624,6 +5866,17 @@
 		)
 		(property "Description" "Mounting Hole without connection"
 			(at 171.45 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "element14" ""
+			(at 171.45 245.11 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

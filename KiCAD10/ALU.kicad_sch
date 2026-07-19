@@ -6533,6 +6533,17 @@
 				)
 			)
 		)
+		(property "element14" ""
+			(at 118.11 41.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "591fd851-c148-48c6-bfd1-687946060e6a")
 		)
@@ -6639,6 +6650,17 @@
 		)
 		(property "Description" "Quad 2-input XOR"
 			(at 168.91 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "element14" ""
+			(at 168.91 41.91 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7617,6 +7639,17 @@
 				)
 			)
 		)
+		(property "element14" ""
+			(at 162.56 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3d631111-1c8f-462f-aa6e-b3d9e3f53678")
 		)
@@ -7722,6 +7755,17 @@
 			)
 		)
 		(property "Description" "Quad 2-input XOR"
+			(at 153.67 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "element14" ""
 			(at 153.67 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -7847,6 +7891,17 @@
 				)
 			)
 		)
+		(property "element14" ""
+			(at 180.34 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "80631492-b084-4f35-aeda-51134b325cdb")
 		)
@@ -7952,6 +8007,17 @@
 			)
 		)
 		(property "Description" "Quad 2-input XOR"
+			(at 171.45 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "element14" ""
 			(at 171.45 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -8077,6 +8143,17 @@
 				)
 			)
 		)
+		(property "element14" ""
+			(at 111.76 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1a913e20-62b6-41c7-8098-34ec836f7113")
 		)
@@ -8182,6 +8259,17 @@
 			)
 		)
 		(property "Description" "Quad 2-input XOR"
+			(at 102.87 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "element14" ""
 			(at 102.87 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -8307,6 +8395,17 @@
 				)
 			)
 		)
+		(property "element14" ""
+			(at 129.54 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0937bf63-6d9c-4565-8d33-35ac813d84d8")
 		)
@@ -8412,6 +8511,17 @@
 			)
 		)
 		(property "Description" "Quad 2-input XOR"
+			(at 120.65 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "element14" ""
 			(at 120.65 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -8531,6 +8641,17 @@
 		)
 		(property "Description" "4-bit full Adder"
 			(at 116.84 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "element14" ""
+			(at 116.84 95.25 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8664,6 +8785,17 @@
 				)
 			)
 		)
+		(property "element14" ""
+			(at 167.64 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1536a7d8-4f4e-483c-b47d-85b3c5816911")
 		)
@@ -8743,6 +8875,17 @@
 				)
 			)
 		)
+		(property "Color" "Green"
+			(at 81.026 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Value" "LED_Small"
 			(at 82.55 121.8565 0)
 			(hide yes)
@@ -8798,6 +8941,17 @@
 				)
 			)
 		)
+		(property "element14" "1003234"
+			(at 78.74 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "bbaf9e85-20de-4851-a042-1f9c688af3df")
 		)
@@ -8825,6 +8979,17 @@
 		(dnp no)
 		(uuid "16def0ff-8a92-4106-b5a4-b594558f9e00")
 		(property "Reference" "D54"
+			(at 78.486 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Color" "Green"
 			(at 78.486 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -8890,6 +9055,17 @@
 				)
 			)
 		)
+		(property "element14" "1003234"
+			(at 76.2 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6cd26f82-3e99-47c2-aa8c-05b30cae13bd")
 		)
@@ -8917,6 +9093,17 @@
 		(dnp no)
 		(uuid "2e2d7671-f357-42b3-8ecd-ecfd9cc24ec2")
 		(property "Reference" "D58"
+			(at 88.646 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Color" "Green"
 			(at 88.646 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -8982,6 +9169,17 @@
 				)
 			)
 		)
+		(property "element14" "1003234"
+			(at 86.36 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d36d2c29-3744-4887-95f8-b656d92219c9")
 		)
@@ -9009,6 +9207,17 @@
 		(dnp no)
 		(uuid "3762a701-cba2-452f-8c63-51549b60bf48")
 		(property "Reference" "D56"
+			(at 83.566 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Color" "Green"
 			(at 83.566 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -9064,6 +9273,17 @@
 			)
 		)
 		(property "Sim.Pin" "1=K 2=A"
+			(at 81.28 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "element14" "1003234"
 			(at 81.28 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -9157,6 +9377,17 @@
 				)
 			)
 		)
+		(property "element14" ""
+			(at 137.16 176.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f8a23779-fead-4304-9804-c5b1b53b74cb")
 		)
@@ -9184,6 +9415,17 @@
 		(dnp no)
 		(uuid "496ad512-c9a8-49bb-9b13-bda34792cdef")
 		(property "Reference" "D57"
+			(at 86.106 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Color" "Green"
 			(at 86.106 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -9249,6 +9491,17 @@
 				)
 			)
 		)
+		(property "element14" "1003234"
+			(at 83.82 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f818bb38-f4a4-490f-b905-223125f7d8e8")
 		)
@@ -9276,6 +9529,17 @@
 		(dnp no)
 		(uuid "534bf847-66eb-488a-94ab-929beb3c8f66")
 		(property "Reference" "D93"
+			(at 91.186 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Color" "White"
 			(at 91.186 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -9330,6 +9594,17 @@
 			)
 		)
 		(property "Sim.Pin" "1=K 2=A"
+			(at 88.9 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "element14" ""
 			(at 88.9 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -9414,6 +9689,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 191.77 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "element14" ""
+			(at 191.77 124.46 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9573,6 +9859,17 @@
 			)
 		)
 		(property "Description" "8 resistor network, star topology, bussed resistors, small symbol"
+			(at 78.74 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "element14" ""
 			(at 78.74 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -9756,6 +10053,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 88.9 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "element14" ""
+			(at 88.9 95.25 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9957,6 +10265,17 @@
 				)
 			)
 		)
+		(property "Color" "White"
+			(at 192.786 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Value" "ES"
 			(at 187.706 53.34 0)
 			(show_name no)
@@ -10011,6 +10330,17 @@
 				)
 			)
 		)
+		(property "element14" ""
+			(at 190.5 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "fc98d48d-8393-428a-997d-db3974694609")
 		)
@@ -10038,6 +10368,17 @@
 		(dnp no)
 		(uuid "b0902d7f-d111-45a0-9767-d6ed8b0d26a0")
 		(property "Reference" "D95"
+			(at 194.056 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Color" "Green"
 			(at 194.056 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -10102,6 +10443,17 @@
 				)
 			)
 		)
+		(property "element14" ""
+			(at 191.77 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "198a1315-e1c8-49d2-8031-fa8115313a3e")
 		)
@@ -10129,6 +10481,17 @@
 		(dnp no)
 		(uuid "b899bd6d-61a9-45ce-b73d-5bbba1d87149")
 		(property "Reference" "D53"
+			(at 75.946 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Color" "Green"
 			(at 75.946 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -10184,6 +10547,17 @@
 			)
 		)
 		(property "Sim.Pin" "1=K 2=A"
+			(at 73.66 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "element14" "1003234"
 			(at 73.66 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -10268,6 +10642,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 190.5 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "element14" ""
+			(at 190.5 59.69 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10591,6 +10976,17 @@
 				)
 			)
 		)
+		(property "element14" ""
+			(at 144.78 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4b985968-c919-4258-8611-5e8225c91b09")
 		)
@@ -10664,6 +11060,17 @@
 				)
 			)
 		)
+		(property "Color" "Red"
+			(at 134.874 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Value" "EO"
 			(at 134.366 170.434 0)
 			(show_name no)
@@ -10708,6 +11115,17 @@
 			)
 		)
 		(property "Sim.Pin" "1=K 2=A"
+			(at 137.16 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "element14" ""
 			(at 137.16 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -10788,6 +11206,17 @@
 			)
 		)
 		(property "Description" "Dual  4 input NOR gate"
+			(at 144.78 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "element14" ""
 			(at 144.78 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -10913,6 +11342,17 @@
 				)
 			)
 		)
+		(property "element14" ""
+			(at 116.84 151.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "71834d45-8ef5-4e24-9079-c7eb74303dcc")
 		)
@@ -11004,6 +11444,17 @@
 				)
 			)
 		)
+		(property "Color" "Green"
+			(at 73.406 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Value" "LED_Small"
 			(at 74.93 121.8565 0)
 			(hide yes)
@@ -11059,6 +11510,17 @@
 				)
 			)
 		)
+		(property "element14" "1003234"
+			(at 71.12 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "bb38394a-b203-489a-876b-60707dab2bd8")
 		)
@@ -11086,6 +11548,17 @@
 		(dnp no)
 		(uuid "f1c6f305-e075-42bd-a539-1a721d63cfe7")
 		(property "Reference" "D59"
+			(at 91.186 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Color" "Green"
 			(at 91.186 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -11140,6 +11613,17 @@
 			)
 		)
 		(property "Sim.Pin" "1=K 2=A"
+			(at 88.9 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "element14" ""
 			(at 88.9 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -11220,6 +11704,17 @@
 		)
 		(property "Description" "Dual  4 input NOR gate"
 			(at 163.83 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "element14" ""
+			(at 163.83 143.51 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

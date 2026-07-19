@@ -5432,6 +5432,17 @@
 				)
 			)
 		)
+		(property "element14" ""
+			(at 104.14 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "feebdeb4-1a8c-40a1-85e5-fda2fc788fdd")
 		)
@@ -5547,6 +5558,17 @@
 				)
 			)
 		)
+		(property "element14" ""
+			(at 104.14 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "94c6de2e-2750-476c-b782-f3083fb1da73")
 		)
@@ -5652,6 +5674,17 @@
 			)
 		)
 		(property "Description" "quad 2-input NAND gate"
+			(at 88.9 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "element14" ""
 			(at 88.9 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -5938,6 +5971,17 @@
 				)
 			)
 		)
+		(property "element14" ""
+			(at 119.38 152.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5c186ffe-1d7b-4f1f-a9a3-baa91b5eb5ed")
 		)
@@ -6012,6 +6056,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 77.47 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "element14" ""
+			(at 77.47 88.9 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6334,6 +6389,17 @@
 				)
 			)
 		)
+		(property "element14" ""
+			(at 73.66 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0e8a3e22-b7aa-4958-b64f-7f505685d502")
 		)
@@ -6495,6 +6561,17 @@
 		)
 		(property "Description" "Shift Register 8-bit, parallel load"
 			(at 185.42 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "element14" ""
+			(at 185.42 76.2 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6694,6 +6771,17 @@
 		)
 		(property "Description" ""
 			(at 74.93 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "element14" ""
+			(at 74.93 68.58 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6932,6 +7020,17 @@
 				)
 			)
 		)
+		(property "Color" "Blue"
+			(at 124.714 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Value" "R"
 			(at 124.968 146.05 0)
 			(show_name no)
@@ -6976,6 +7075,17 @@
 			)
 		)
 		(property "Sim.Pin" "1=K 2=A"
+			(at 127 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "element14" ""
 			(at 127 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -7212,6 +7322,17 @@
 		)
 		(property "Description" "8-bit serial in/out Shift Register 3-State Outputs"
 			(at 170.18 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "element14" ""
+			(at 170.18 115.57 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7809,6 +7930,17 @@
 				)
 			)
 		)
+		(property "element14" ""
+			(at 129.54 115.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a968f2c4-3c1d-47b2-994a-217ecfa4c184")
 		)
@@ -7932,6 +8064,17 @@
 				)
 			)
 		)
+		(property "element14" ""
+			(at 134.62 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9e5337aa-0a88-4a4c-b5c8-cf14e07dbf50")
 		)
@@ -8011,6 +8154,17 @@
 				)
 			)
 		)
+		(property "Color" "Red"
+			(at 117.094 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Value" "TO"
 			(at 117.094 146.05 0)
 			(show_name no)
@@ -8055,6 +8209,17 @@
 			)
 		)
 		(property "Sim.Pin" "1=K 2=A"
+			(at 119.38 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "element14" ""
 			(at 119.38 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -8444,6 +8609,17 @@
 			)
 		)
 		(property "Description" "quad 2-input NAND gate"
+			(at 66.04 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "element14" ""
 			(at 66.04 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -8952,6 +9128,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 127 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "element14" ""
+			(at 127 152.4 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
