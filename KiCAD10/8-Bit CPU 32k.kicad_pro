@@ -661,13 +661,25 @@
           "group_by": false,
           "label": "MPN",
           "name": "MPN",
-          "show": false
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Supplier Ref",
+          "name": "Supplier Ref",
+          "show": true
         },
         {
           "group_by": false,
           "label": "Order No",
           "name": "element14",
           "show": false
+        },
+        {
+          "group_by": true,
+          "label": "Color",
+          "name": "Color",
+          "show": true
         }
       ],
       "filter_string": "",
