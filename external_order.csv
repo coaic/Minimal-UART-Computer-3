@@ -1,0 +1,5 @@
+Part Number,Quantity,Source,Line Note
+CD74HC4002E,1,Mouser or DigiKey,"74HC4002 DIP-14 (U32) - active TI part; no DIP listing exists at Element14 at all"
+CD74HCT283E,2,DigiKey,"74HC283 sub DIP-16 (U13 U33) - HCT SUBSTITUTION (plain CD74HC283E is factory-exhausted; Rochester/LCSC may still have HC) - confirm before ordering"
+CD74HC161E,11,DigiKey (Rochester marketplace),"FALLBACK ONLY - use if Element14 code 380600 cannot cover 11 pcs; ~4250 seen at Rochester"
+SN74HC377N,3,DigiKey (Rochester marketplace),"FALLBACK ONLY - use if Element14 code 380775 fails; 33k+ seen at Rochester"
