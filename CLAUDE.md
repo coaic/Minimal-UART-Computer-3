@@ -72,7 +72,7 @@ The LEDs are all the same footprint (`LED_THT:LED_D5.0mm`), so colour is a **fre
 | Colour | Qty | `Supplier Ref` (Element14) |
 |---|---|---|
 | Green | 75 | `L-53SGC` |
-| Red | 7 | `703-0100` |
+| Red | 7 | `2112111` |
 | Yellow | 11 | `MCL053YD` |
 | White | 4 | `C512A-WNN-CZ0B0151` |
 | Blue | 1 | `C503B-BCS-CV0Z0461` |
@@ -94,7 +94,7 @@ All 98 LEDs are coded.
 
 So the high-Vf blue (1 kΩ) and white (2 kΩ) are deliberately given lower series resistors; blue actually ends up driven harder than the green banks. The tuning targets *desired brightness by function* more than strict equal-luminance — yellow at 6 mA visibly dominates, whites at ~1 mA are the most modest — but nothing is Vf-starved. **Any named LED can be rebalanced** by changing its discrete resistor (e.g. whites 2 kΩ → ~1.2–1.5 kΩ, or calm the yellows 470 Ω → ~1 kΩ); the green bus banks cannot (bussed arrays) but are monochrome so it's moot. Evaluate lit-up on the prototype before changing anything.
 
-**`element14_order.csv`** (repo root) is the submit-ready Element14 parts list covering the whole board — one line per orderable part with the numeric Element14 **order code**, quantity (spares included), MPN, and a line note; upload it via Element14's parts-list import. It also includes DIP sockets, which are needed for the build but absent from the schematic BOM. Note the red LED's schematic `Supplier Ref` `703-0100` is really the Multicomp MPN; its order code is `2112111`.
+**`element14_order.csv`** (repo root) is the submit-ready Element14 parts list covering the whole board — one line per orderable part with the numeric Element14 **order code**, quantity (spares included), MPN, and a line note; upload it via Element14's parts-list import. It also includes DIP sockets, which are needed for the build but absent from the schematic BOM. The red LED's `Supplier Ref` is the numeric Element14 order code `2112111` (its Multicomp MPN is `703-0100`); the other colours' refs are manufacturer part numbers that Element14 also matches.
 
 Order ~10% spare LEDs (≈110 total). Other order-sensitive items: **11× SIP-9 bussed resistor arrays** (must be the 9-pin common-bus type, not isolated) drive the LED banks; the four `SST39SF010` flash chips are identical parts (HSB/LSB/MSB/SSD are roles); memory is **AS6C1008** (128K SRAM, DIP-32 0.6″) and the **ATmega328P is on-board** (DIP-28 narrow 0.3″) with a 16 MHz crystal. Buy flash, RAM, MCU, and crystal genuine from a reputable distributor; 74HCxx logic, sockets, and passives can be sourced cheaply in bulk.
 

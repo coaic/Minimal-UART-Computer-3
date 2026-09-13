@@ -7881,7 +7881,7 @@
 				)
 			)
 		)
-		(property "Supplier Ref" "703-0100"
+		(property "Supplier Ref" "2112111"
 			(at 176.784 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -8995,7 +8995,7 @@
 				)
 			)
 		)
-		(property "Supplier Ref" "703-0100"
+		(property "Supplier Ref" "2112111"
 			(at 153.924 137.16 0)
 			(hide yes)
 			(show_name no)
