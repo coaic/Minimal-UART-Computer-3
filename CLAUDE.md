@@ -94,6 +94,8 @@ All 98 LEDs are coded.
 
 So the high-Vf blue (1 kΩ) and white (2 kΩ) are deliberately given lower series resistors; blue actually ends up driven harder than the green banks. The tuning targets *desired brightness by function* more than strict equal-luminance — yellow at 6 mA visibly dominates, whites at ~1 mA are the most modest — but nothing is Vf-starved. **Any named LED can be rebalanced** by changing its discrete resistor (e.g. whites 2 kΩ → ~1.2–1.5 kΩ, or calm the yellows 470 Ω → ~1 kΩ); the green bus banks cannot (bussed arrays) but are monochrome so it's moot. Evaluate lit-up on the prototype before changing anything.
 
+**`element14_order.csv`** (repo root) is the submit-ready Element14 parts list covering the whole board — one line per orderable part with the numeric Element14 **order code**, quantity (spares included), MPN, and a line note; upload it via Element14's parts-list import. It also includes DIP sockets, which are needed for the build but absent from the schematic BOM. Note the red LED's schematic `Supplier Ref` `703-0100` is really the Multicomp MPN; its order code is `2112111`.
+
 Order ~10% spare LEDs (≈110 total). Other order-sensitive items: **11× SIP-9 bussed resistor arrays** (must be the 9-pin common-bus type, not isolated) drive the LED banks; the four `SST39SF010` flash chips are identical parts (HSB/LSB/MSB/SSD are roles); memory is **AS6C1008** (128K SRAM, DIP-32 0.6″) and the **ATmega328P is on-board** (DIP-28 narrow 0.3″) with a 16 MHz crystal. Buy flash, RAM, MCU, and crystal genuine from a reputable distributor; 74HCxx logic, sockets, and passives can be sourced cheaply in bulk.
 
 ### Identifying the socketed chips (and their orderable parts)
