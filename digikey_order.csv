@@ -30,7 +30,7 @@ A 16-LC-TT,16,DIP-16 sockets,Assmann DIP-16 socket (alt Adam Tech ICS-316-T)
 A 20-LC-TT,8,DIP-20 sockets,Assmann DIP-20 socket (alt Adam Tech ICS-320-T)
 A 28-LC-TT,1,DIP-28 socket U36,Assmann DIP-28 socket - VERIFY 0.3in (300 mil) NARROW row spacing for ATmega328P
 A 32-LC-TT,6,DIP-32 sockets,Assmann DIP-32 socket 0.6in (600 mil) wide x5 fitted + 1 spare
-WP7113SGC,83,LED green x75,"Kingbright 5mm green 568nm water-clear, Vf 2.2V - US part number for L-53SGC; bus/register banks + C CLK N status + spares"
+WP7113SGC,100,LED green x75,"Kingbright 5mm green 568nm water-clear, Vf 2.2V - US part number for L-53SGC; bus/register banks + C CLK N status + spares - 100 pcs hits the price break"
 WP7113YD,13,LED yellow x11,"Kingbright 5mm yellow diffused 588nm, Vf 2.1V - US part number for L-53YD; AI BI RI CIL CIH MIL MIH TI FI II IC + spares"
 WP7113ID,10,LED red x7,"Kingbright 5mm red diffused 617nm, Vf 1.9V - US part number for L-53ID; AO BO EO TO COH COL RO + spares - 10 pcs hits the price break"
 C512A-WNN-CZ0B0151,5,LED white x4,Cree 5mm white - ME CE EC ES + spare
