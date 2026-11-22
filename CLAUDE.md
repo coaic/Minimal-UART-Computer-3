@@ -55,7 +55,7 @@ The assembly dialect (see any file in `Programs/`) is whitespace-driven and dens
 
 ## Bill of materials and front-panel LEDs
 
-`BOM.csv` (repo root) is generated from the **PCB** (`KiCAD9/8-Bit CPU 32k.kicad_pcb`), the same source the Gerbers were exported from — **not** from `8-Bit CPU 32k.net`, which is a stale older revision and must not be used for ordering. The board is a 253 × 236 mm "blinkenlights" machine: ~207 components, of which **~98 are 5 mm THT LEDs**. After converting to KiCad 10, regenerate the BOM from the schematic (**Tools → Generate BOM**) and diff it against `BOM.csv` — trust the schematic for values, the PCB for what is physically placed.
+`BOM.csv` (repo root) is generated from the **PCB** (`KiCAD9/8-Bit CPU 32k.kicad_pcb`), the same source the Gerbers were exported from — **not** from `8-Bit CPU 32k.net`, which is a stale older revision and must not be used for ordering. The board is a 209 × 171 mm (208.9 × 170.8 mm from the Edge.Cuts Gerber, 2-layer) "blinkenlights" machine: ~207 components, of which **~98 are 5 mm THT LEDs**. After converting to KiCad 10, regenerate the BOM from the schematic (**Tools → Generate BOM**) and diff it against `BOM.csv` — trust the schematic for values, the PCB for what is physically placed.
 
 The LEDs are all the same footprint (`LED_THT:LED_D5.0mm`), so colour is a **free build choice** used to make the panel readable. The reference designators / silkscreen values group them functionally — assigning one colour per group is recommended:
 
