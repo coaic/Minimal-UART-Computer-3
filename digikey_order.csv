@@ -10,16 +10,16 @@ SN74HCT245N,5,74HC245 x5,"74HC245 DIP-20 - HCT SUBSTITUTION: SN74HC245N is 0 sto
 SN74HC377N,3,74HC377 x3,74HC377 DIP-20 TI active
 CD74HC4002E,1,U32,"74HC4002 DIP-14 - importer says ""multiple matches"": pick the TI tube line. If TI stock is 0 take the Rochester marketplace listing"
 CD74HC283E,2,U13 U33,"74HC283 DIP-16 TI active - importer says ""multiple matches"": pick the TI tube line (plain HC available, HCT sub no longer needed)"
-SST39SF040-70-4C-PHE,5,U7 U9 U11 U15 +1,"4Mbit flash PDIP-32, sub for EOL 010A/020A (020A shows Obsolete/0 stock at DigiKey; 040 PDIP still stocked). Drop-in: PCB grounds pins 1/2/30 = A18/A17/A16 = lowest 64K bank. Set programmer to SST39SF040, image at offset 0"
+SST39SF040-70-4C-PHE,5,U7 U9 U11 U15 +1,"NOT AVAILABLE AT DIGIKEY (Obsolete, 0 stock) - delete this row before adding the list to cart. Whole SST39SF PDIP family is EOL (LTB Jul 2026). Source from remaining distributor stock: Future Electronics had ~1,345 of the as-designed SST39SF010A-70-4C-PHE and ~86 of the 040; RS (rs-online.com/au) ~348 of the 040; Newark/Element14 ~495 of the 040 (order via Element14 AU as US-warehouse stock). Any of 010A/020A/040 is a drop-in: PCB grounds pins 1/2/30. Buy 5 (4 fitted + spare) and set the programmer to the exact part bought"
 AS6C1008-55PCN,1,U17,128Kx8 SRAM PDIP-32 0.6in
 ATMEGA328P-PU,1,U36,"ATmega328P PDIP-28 narrow 0.3in, clock generator - importer says ""multiple matches"": pick the Microchip tube line. Program on an Uno R3 first"
 4609H-101-332LF,10,RN2-RN11,"Bourns SIP-9 BUSSED 3.3k array, 4600H profile - 4609X-101-332LF is 0 stock at DigiKey until Jan 2027. Same footprint. If DigiKey has no 4609H either, Element14 code 9356983 has ~5000 of the 4609X"
 4609X-101-471LF,1,RN1,Bourns SIP-9 BUSSED 470R array
 CF14JT470R,20,470R x14,Stackpole 470R 1/4W carbon film axial + spares (alt Yageo CFR-25JB-52-470R)
-CF14JT1K00,5,1k x1,Stackpole 1k 1/4W axial (alt Yageo CFR-25JB-52-1K)
+CF14JT1K00,10,1k x1,Stackpole 1k 1/4W axial - 10 pcs is cheaper than 5 at the price break (alt Yageo CFR-25JB-52-1K)
 CF14JT2K00,15,2k x11,Stackpole 2.0k 1/4W axial + spares (alt Yageo CFR-25JB-52-2K)
 CF14JT3K30,10,3k3 x5,Stackpole 3.3k 1/4W axial + spares (alt Yageo CFR-25JB-52-3K3)
-CF14JT10K0,5,10k x1,Stackpole 10k 1/4W axial (alt Yageo CFR-25JB-52-10K)
+CF14JT10K0,10,10k x1,Stackpole 10k 1/4W axial - 10 pcs is cheaper than 5 at the price break (alt Yageo CFR-25JB-52-10K)
 K104K15X7RF5TL2,20,C3-C20,Vishay 100n X7R ceramic THT 2.5mm x18 + spares
 K220J15C0GF5TL2,5,C1 C2,Vishay 22p C0G ceramic THT 2.5mm crystal load
 ABL-16.000MHZ-B2,1,Y1,"Abracon 16 MHz HC49/US 18pF +/-20ppm crystal - sub for Euroquartz HC49-4H, same 4.88mm pin pitch (ECS-160-18-4X is not a DigiKey part number; its DigiKey variants are -EM / -CKM)"
@@ -32,6 +32,6 @@ A 28-LC-TT,1,DIP-28 socket U36,Assmann DIP-28 socket - VERIFY 0.3in (300 mil) NA
 A 32-LC-TT,6,DIP-32 sockets,Assmann DIP-32 socket 0.6in (600 mil) wide x5 fitted + 1 spare
 WP7113SGC,83,LED green x75,"Kingbright 5mm green 568nm water-clear, Vf 2.2V - US part number for L-53SGC; bus/register banks + C CLK N status + spares"
 WP7113YD,13,LED yellow x11,"Kingbright 5mm yellow diffused 588nm, Vf 2.1V - US part number for L-53YD; AI BI RI CIL CIH MIL MIH TI FI II IC + spares"
-WP7113ID,8,LED red x7,"Kingbright 5mm red diffused 617nm, Vf 1.9V - US part number for L-53ID; AO BO EO TO COH COL RO + spares"
+WP7113ID,10,LED red x7,"Kingbright 5mm red diffused 617nm, Vf 1.9V - US part number for L-53ID; AO BO EO TO COH COL RO + spares - 10 pcs hits the price break"
 C512A-WNN-CZ0B0151,5,LED white x4,Cree 5mm white - ME CE EC ES + spare
 C503B-BCS-CV0Z0461,2,LED blue x1,Cree 5mm blue - R flag + spare
