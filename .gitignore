@@ -26,3 +26,6 @@ _autosave-*
 # BOM.csv; these are throwaway exports KiCad drops next to the project files)
 KiCAD9/*.csv
 KiCAD10/*.csv
+
+# Distributor order documents (contain personal details)
+SALESORDER_*.pdf
